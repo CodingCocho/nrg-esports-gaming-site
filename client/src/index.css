@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*
+{
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0px;
+  overflow-x: hidden;
+  padding: 0px;
+}
+
+p
+{
+  overflow-y: hidden;
+}
+
+.page
+{
+  min-height: 100%;
+  width: 100vw;
+}
+
+#shop-now
+{
+  background-image: url("https://global-uploads.webflow.com/608c5ef703153e59ec742548/63754a50fef4a184254a2fbb_UFC_Homepage.png");
+}
+
+#nrg-news-container-1
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4) ), url('https://global-uploads.webflow.com/608c5ef703153e59ec742548/6360188b19b8ff270959c2af_SAPNAP%20JOINS%20NRG.png');
+}
+
+#nrg-news-container-2
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) ), url('https://global-uploads.webflow.com/608c5ef703153e59ec742548/636019ac4c25ce6de9ca5e92_NRG%20FUNDAMENTALS%20COLLECTION.jpeg');
+}
+
+#nrg-news-container-3
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) ), url('https://global-uploads.webflow.com/608c5ef703153e59ec742548/63601a4f19b8ff442a59d72a_NRG%20ROCKET%20LEAGUE%20DECALS.jpeg');
+}
+
+#nrg-news-container-4
+{
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) ), url('https://global-uploads.webflow.com/608c5ef703153e59ec742548/632b828b013c287701c4ac52_nrg-graphic-linkedin%20(1).png');
+}
