@@ -104,7 +104,7 @@ export const Footer = (): JSX.Element =>
         </form>
       </div>
       <p
-      className="block text-center pb-20 mt-10"
+      className="block text-center pb-20 mt-24"
       >
         &copy; 2022, NRG Esports, All Rights Reserved
       </p>
