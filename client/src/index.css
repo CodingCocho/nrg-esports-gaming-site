@@ -46,3 +46,14 @@ p
 {
   background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7) ), url('https://global-uploads.webflow.com/608c5ef703153e59ec742548/632b828b013c287701c4ac52_nrg-graphic-linkedin%20(1).png');
 }
+
+#news-letter-image
+{
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+#newsletter-text a
+{
+  text-decoration: underline;
+}

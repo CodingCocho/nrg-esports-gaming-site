@@ -4,7 +4,9 @@ import 'react-toastify/dist/ReactToastify.css';
 import {Navbar} from '../components/Navbar';
 import {Footer} from '../components/Footer';
 import {About} from '../pages/About';
+import {Communities} from '../pages/Communities';
 import {Home} from '../pages/Home';
+import {News} from '../pages/News';
 import {Partners} from '../pages/Partners';
 
 
@@ -35,6 +37,12 @@ function App() {
 
               {/* Hold the partners route */}
               <Route element={<Partners/>} path="/partners"></Route>
+
+              {/* Hold the news route */}
+              <Route element={<News/>} path="/news"></Route>
+
+              {/* Hold the communities route */}
+              <Route element={<Communities/>} path="/communities"></Route>
             </Routes>
           
             {/* Hold the Footer component */}
