@@ -5,6 +5,7 @@ import {Navbar} from '../components/Navbar';
 import {Footer} from '../components/Footer';
 import {About} from '../pages/About';
 import {Communities} from '../pages/Communities';
+import {Community} from '../pages/Community';
 import {Home} from '../pages/Home';
 import {News} from '../pages/News';
 import {Partners} from '../pages/Partners';
@@ -43,12 +44,16 @@ function App() {
 
               {/* Hold the communities route */}
               <Route element={<Communities/>} path="/communities"></Route>
+
+              {/* Hold the dynamic route for the communities */}
+              <Route element={<Community/>} path="/communities/:community"></Route>
             </Routes>
           
             {/* Hold the Footer component */}
             <Footer/>
           </main>
-       
+      
+       {/* Hold the container to allow toasts */}
        <ToastContainer />
       </Router>
     </>
