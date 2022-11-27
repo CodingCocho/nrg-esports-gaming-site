@@ -1,23 +1,28 @@
 [
   {
     "name": "GARRETTG",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4836b372dde31797cbe67_garrett-min.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4836b372dde31797cbe67_garrett-min.png",
+    "social": "https://twitter.com/GarrettG"
   },
   {
     "name": "JSTN",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4837462bdd086d855fafd_jstn-min.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4837462bdd086d855fafd_jstn-min.png",
+    "social": "https://twitter.com/Its_JSTN"
   },
   {
     "name": "SQUISHY",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4837ea5995d79b41c9f2e_squishy-min.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4837ea5995d79b41c9f2e_squishy-min.png",
+    "social": "https://twitter.com/SquishyMuffinz"
   },
   {
     "name": "SIZZ",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c48386a4579f0feb531f0b_sizz-min.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c48386a4579f0feb531f0b_sizz-min.png",
+    "social": "https://twitter.com/Sizz"
   },
   {
     "name": "MUSTY",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4838f91478f3492a8c77c_musty-min.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4838f91478f3492a8c77c_musty-min.png",
+    "social": "https://twitter.com/amustycow"
   },
   {
     "name": "CHELL",

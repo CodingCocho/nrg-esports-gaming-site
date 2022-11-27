@@ -1,22 +1,27 @@
 [
   {
     "name": "NAFEN",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c5d04a1d057e4ab82fff8c_nafen.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c5d04a1d057e4ab82fff8c_nafen.png",
+    "social": "https://twitter.com/nafengg"
   },
   {
     "name": "SWEET",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c5d04aa65b4f757e4d57ad_sweetdreams.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c5d04aa65b4f757e4d57ad_sweetdreams.png",
+    "social": "https://twitter.com/sweetdreamsh1"
   },
   {
     "name": "APRYZE",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62d044fbca9577086f9c9258_apryze.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62d044fbca9577086f9c9258_apryze.png",
+    "social": "https://twitter.com/Apryze_"
   },
   {
     "name": "GILD",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6306c6953f1e5e3bfbd39286_gild.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6306c6953f1e5e3bfbd39286_gild.png",
+    "social": "https://twitter.com/Gildersons_"
   },
   {
     "name": "NIKKI",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6306c69b73a0407927f96050_nikki.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6306c69b73a0407927f96050_nikki.png",
+    "social": "https://twitter.com/IRLBabynikki"
   }
 ]

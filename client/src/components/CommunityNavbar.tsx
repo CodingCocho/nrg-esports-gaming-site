@@ -9,7 +9,7 @@ export const CommunitiesNavbar = (): JSX.Element =>
       id="container"
       >
         <div 
-        className="grid grid-cols-2 max-w-[900px] w-[350px] mx-auto gap-2 lg:grid-cols-6 lg:w-[900px]"
+        className="grid grid-cols-2 max-w-[900px] w-[350px] mx-auto gap-2 md:grid-cols-3 lg:grid-cols-6 lg:w-[900px]"
         id="navbar"
         >
           <NavLink

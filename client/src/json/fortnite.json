@@ -1,18 +1,22 @@
 [
   {
     "name": "BENJYFISHY",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154acf91cfbe303eaa63d33_benjy-min.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154acf91cfbe303eaa63d33_benjy-min.jpg",
+    "social": "https://twitter.com/benjyfishy"
   },
   {
     "name": "BUCKE",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154acf982f019441e66904f_bucke-min.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154acf982f019441e66904f_bucke-min.jpg",
+    "social": "https://twitter.com/BuckeFPS"
   },
   {
     "name": "CLIX",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154acf928304568caa4fe5f_clix-min.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154acf928304568caa4fe5f_clix-min.jpg",
+    "social": "https://twitter.com/Clix"
   },
   {
     "name": "AUSSIEANTICS",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154ad8a1cfbe34a2da63f5b_aussieantics.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154ad8a1cfbe34a2da63f5b_aussieantics.jpg",
+    "social": "https://twitter.com/AussieAntics"
   }
 ]

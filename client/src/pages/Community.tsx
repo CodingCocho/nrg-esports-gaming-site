@@ -85,7 +85,7 @@ export const Community = (): JSX.Element =>
   return (
     <>
       <div 
-      className="page"
+      className="page bg-black flex flex-col items-center"
       >
         <CommunitiesNavbar />
         {galleryData && 

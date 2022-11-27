@@ -1,22 +1,27 @@
 [
   {
     "name": "VIOL2T",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4526a275c05562c33d76b_viol2t.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4526a275c05562c33d76b_viol2t.png",
+    "social": "https://twitter.com/Viol2t_OW"
   },
   {
     "name": "KILO",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4526c50db527ad9f1d394_kilo.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4526c50db527ad9f1d394_kilo.png",
+    "social": "https://twitter.com/0w_kilo"
   },
   {
     "name": "PROPER",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4526cc0229d85d7482417_proper.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4526cc0229d85d7482417_proper.png",
+    "social": "https://twitter.com/Ow_Proper"
   },
   {
     "name": "FINN",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4526b7c02fa4df9edd0e8_finn.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62c4526b7c02fa4df9edd0e8_finn.png",
+    "social": "https://twitter.com/SEjFiNN"
   },
   {
     "name": "EMONGG",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154dc976cacd1e579aaacbd_emongg-min.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154dc976cacd1e579aaacbd_emongg-min.jpg",
+    "social": "https://twitter.com/emonggtv"
   }
 ]

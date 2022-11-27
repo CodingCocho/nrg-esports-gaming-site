@@ -1,14 +1,17 @@
 [
   {
     "name": "JOEYKAOTYK",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6259bd5cc8e75f6d79973b3d_joeykayotk.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6259bd5cc8e75f6d79973b3d_joeykayotk.jpg",
+    "social": "https://twitter.com/JoeyKaotyk"
   },
   {
     "name": "EE",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6259bcea78cedf42ca469282_EE.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6259bcea78cedf42ca469282_EE.jpg",
+    "social": "https://twitter.com/eevisu?s=21&t=fOOgANzX-3_H0kzEy5KWlg"
   },
   {
     "name": "SAPNAP",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/63601c5697f2c3d9a66a5e72_Sapnap.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/63601c5697f2c3d9a66a5e72_Sapnap.png",
+    "social": "https://twitter.com/sapnap"
   }
 ]

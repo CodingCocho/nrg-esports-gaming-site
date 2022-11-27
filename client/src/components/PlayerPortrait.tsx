@@ -7,8 +7,8 @@ export const PlayerPortrait = (props: PortraitProps): JSX.Element =>
   return (
     <>
       <div 
-      className="relative"
-      id="portrait"
+      className="relative w-full flex justify-center items-center"
+      id="portrait-container"
       >
         <img   
         alt=""
@@ -17,7 +17,7 @@ export const PlayerPortrait = (props: PortraitProps): JSX.Element =>
         src={portrait} 
         />
         <p
-        className="absolute bottom-0 block pl-4 py-4 text-6xl text-white font-black" 
+        className="absolute bottom-0 left-0 block pl-4 py-4 text-4xl lg:text-6xl text-white font-black" 
         id="player-name"
         >
           {name}
