@@ -2,6 +2,8 @@ export const About = (): JSX.Element =>
 {
   return (
     <>
+
+      {/* Hold the container for the route */}
       <div
       className="w-full text-left pl-4 bg-black py-16 min-h-[80vh]"
       id="about-container"

@@ -10,6 +10,8 @@ export const Partners = (): JSX.Element =>
 {
   return (
     <>
+    
+      {/* Hold the section for the page */}
       <section 
       className="w-full py-12 bg-black md:pl-4 lg:pl-12 xl:pl-24" 
       id="sponsors"
@@ -19,6 +21,8 @@ export const Partners = (): JSX.Element =>
         >
           NRG ESPORTS
         </p>
+
+        {/* Hold the grid for NRG Esports sponsors */}
         <div 
         className="grid mt-16 grid-cols-1-1/2 place-items-center place-content-center gap-y-16 lg:grid-cols-6-1/2 lg:justify-items-start"
         id="sponsor-grid"
@@ -87,6 +91,8 @@ export const Partners = (): JSX.Element =>
           >
             SAN FRANCISCO SHOCK
           </p>
+
+          {/* Hold a grid for San Francisco Shock's sponsors */}
           <div 
           className="grid grid-cols-1-1/2 place-items-center place-content-center gap-y-16 mt-16 lg:grid-cols-2-1/2 lg:justify-items-start" 
           id="shock-sponsors"

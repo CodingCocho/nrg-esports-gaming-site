@@ -48,7 +48,11 @@ export const Community = (): JSX.Element =>
   */
  const setCommunityData = (community: string): void =>
  {
+
+  // Hold the JSON data
   let data: CommunityDataState | undefined;
+  
+  // Determine which community data to retrieve
   switch(community)
   {
     case 'apex':
@@ -79,15 +83,21 @@ export const Community = (): JSX.Element =>
       toast.error('Could not load community data', {theme: 'colored'});
       break;
   }
+
+  // Set the gallery data state
   setGalleryData(data);
  }
 
   return (
     <>
+
+      {/* Hold the container for the page */}
       <div 
       className="page bg-black flex flex-col items-center"
       >
         <CommunitiesNavbar />
+
+        {/* Conditional render the gallery when we have gallery data */}
         {galleryData && 
         !loading &&
         <CommunityPlayerGallery 

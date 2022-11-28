@@ -4,9 +4,13 @@ export const Communities = (): JSX.Element =>
 {
   return (
     <>
+      
+      {/* Hold the container for the page */}
       <div 
       className="page bg-black py-8 pl-4 md:pl-12 lg:pl-20 flex flex-col"
       >
+
+        {/* Hold a link to each community */}
         <Link
         className="text-gray-400 font-black hover:text-white h-fit w-fit text-4xl md:text-6xl lg:text-8xl"
         to="/communities/apex"

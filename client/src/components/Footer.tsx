@@ -1,11 +1,21 @@
+import { toast } from 'react-toastify';
 import NRGLogoWhite from '../assets/nrg-logo-white.png'
 
 export const Footer = (): JSX.Element =>
 {
 
-  const sendEmail = (e:React.SyntheticEvent) =>
+  // Component functions
+
+  /*
+  Submit the email news letter form and inform the user of a success.
+  @param e the form submission event
+  @return none
+  */
+  const sendEmail = (e:React.SyntheticEvent): void =>
   {
     e.preventDefault();
+
+    toast.success('You have subscribed!', {theme: 'colored'})
   }
 
   return (
@@ -14,6 +24,8 @@ export const Footer = (): JSX.Element =>
       className="w-full bg-black" 
       id="component"
       >
+
+        {/* Hold the container for the sponsors */}
         <div 
         className="hidden relative lg:block lg:pt-20"
         id="sponsor-row"
@@ -28,11 +40,15 @@ export const Footer = (): JSX.Element =>
         className="w-full flex flex-col pt-20 lg:flex-row lg:items-center lg:w-[900px] lg:mx-auto lg:justify-between xl:w-[1100px] lg:pt-12"
         id="footer-flex-container"
         >
+
+          {/* Hold the logo */}
           <img 
           alt="nrg-logo-black"
           className="block mx-auto h-[40px] w-[140px] lg:mx-0" 
           src={NRGLogoWhite} 
           />
+
+          {/* Hold the flex/grid container for the media links */}
           <div
           className="flex flex-col mx-auto text-center mt-6 lg:grid lg:grid-cols-4 lg:mt-0 lg:w-1/2 lg:mx-0 lg:gap-x-1 xl:grid-cols-6" 
           id="links"
@@ -87,6 +103,8 @@ export const Footer = (): JSX.Element =>
               PRESS KIT
             </a>
           </div>
+
+          {/* Hold the newsletter form */}
           <form
           className="w-full form-control lg:w-1/3" 
           id="foot-flex-container-2"

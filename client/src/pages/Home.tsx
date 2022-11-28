@@ -4,9 +4,13 @@ export const Home = (): JSX.Element =>
 {
   return (
     <>
+
+      {/* Hold the container for the page */}
       <div 
       className="page relative z-0"
       >
+        
+        {/* Hold the overlay container */}
         <div
         className="h-[30vh] md:h-[60vh] lg:h-[80vh] absolute w-full z-10 flex justify-center items-center" 
         id="overlaying-logo"
@@ -17,10 +21,14 @@ export const Home = (): JSX.Element =>
           src={NRGLogoWhite} 
           />
         </div>
+
+        {/* Hold the container for the video */}
         <div 
         className="w-screen"
         id="video-container"
         >
+
+          {/* Hold the video for the home route */}
           <video
           autoPlay
           className="w-full h-[30vh] object-cover relative z-0 md:h-[60vh] lg:h-[80vh]"
@@ -28,6 +36,8 @@ export const Home = (): JSX.Element =>
           muted
           playsInline
           >
+
+            {/* Hold the sources of the video */}
             <source 
             className="w-full h-full"
             data-wf-ignore="true"
@@ -42,6 +52,8 @@ export const Home = (): JSX.Element =>
             </source>
           </video>
         </div>
+        
+        {/* Hold a container for the latest merch */}
         <div
         className="w-full text-center bg-contain bg-no-repeat pt-8 pb-52 lg:pb-36 bg-bottom lg:bg-[right_5rem_top_10rem]" 
         id="shop-now"
@@ -61,6 +73,8 @@ export const Home = (): JSX.Element =>
           </button>
           </div>
         </div>
+        
+        {/* Hold a container for the org stats */}
         <div 
         className="w-full grid grid-rows-2 bg-black py-24 px-6 gap-y-16 lg:grid-rows-1 lg:grid-cols-2 lg:place-content-center"
         id="home-stats"
@@ -106,6 +120,8 @@ export const Home = (): JSX.Element =>
             </p>
           </div>
         </div>
+        
+        {/* Hold a container for the home text */}
         <div 
         className="w-full text-center bg-white px-6 py-4"
         id="text-wrapper"
@@ -116,10 +132,14 @@ export const Home = (): JSX.Element =>
             AUTHENTIC GAMING COMMUNITY
           </p>
         </div>
+
+        {/* Hold the section with the recent news */}
         <section 
         className="w-full max-w-none lg:grid lg:grid-cols-2" 
         id="nrg-news"
         >
+
+          {/* Hold the container for the news card */}
           <div 
           className="w-full !bg-cover !bg-no-repeat !bg-right h-[500px] px-6 pb-10 flex flex-col justify-end" 
           id="nrg-news-container-1"
@@ -200,7 +220,6 @@ export const Home = (): JSX.Element =>
               VIEW MORE
             </button>
           </div>
-          
         </section>
       </div>
     </>

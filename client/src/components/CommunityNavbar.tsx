@@ -8,6 +8,8 @@ export const CommunitiesNavbar = (): JSX.Element =>
       className="w-screen bg-black pt-8 pb-8"
       id="container"
       >
+
+        {/* Hold the grid for the community navlinks */}
         <div 
         className="grid grid-cols-2 max-w-[900px] w-[350px] mx-auto gap-2 md:grid-cols-3 lg:grid-cols-6 lg:w-[900px]"
         id="navbar"

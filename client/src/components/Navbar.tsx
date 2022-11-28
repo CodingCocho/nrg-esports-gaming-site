@@ -5,17 +5,35 @@ import NRGLogo2 from '../assets/nrg-logo-black-2.png';
 
 export const Navbar = (): JSX.Element =>
 {
+
+  // Hold the state of the navbar menu
   const [open, setOpen] = useState<boolean>(false);
 
+  // Hold the useNavigate hook
   const navigate = useNavigate();
 
-  const openNavbar = () =>
+  // Component functions
+
+  /*
+  Open or close the navbar mobile menu based on the state.
+  @param none
+  @return none
+  */
+  const openNavbar = (): void =>
   {
+
+    // Hold the element using React DOM
     const navElement = document.getElementById('nav-container');
+    
+    // Check the state
     if(!open)
     {
-      if( navElement)
+
+      // Allow TypeScript to detect element
+      if(navElement)
       {
+
+        // Apply the correct position of the mobile menu
         navElement.style.top = '110px';
       }
     }
@@ -26,26 +44,36 @@ export const Navbar = (): JSX.Element =>
         navElement.style.top = '-220px';
       }
     }
+
+    // Set the open state
     setOpen(!open);
   }
 
   return (
     <>
+
+      {/* Hold the container for the navbar */}
       <div 
       className="navbar bg-base-100 px-8 pt-10 pb-6 justify-between z-20 relative lg:px-24"
       >
+
+        {/* Hold the mobile logo */}
         <img 
         alt="black-logo"
         className="w-[125px] h-[30px] block lg:hidden cursor-pointer" 
         onClick={() => navigate('/')}
         src={NRGLogo}
         />
+
+        {/* Hold the desktop logo */}
         <img 
         alt="black-logo"
         className="w-[125px] h-[50px] hidden lg:block cursor-pointer"
         onClick={() => navigate('/')} 
         src={NRGLogo2}
         />
+
+        {/* Hold the desktop navlinks */}
         <div
         className="hidden lg:flex lg:items-center"
         id="links-desktop"
@@ -81,6 +109,8 @@ export const Navbar = (): JSX.Element =>
             News
           </NavLink>
         </div>
+
+        {/* Hold the mobile menu button */}
         <button 
         className="btn btn-square btn-ghost lg:hidden"
         onClick={openNavbar}
@@ -101,6 +131,8 @@ export const Navbar = (): JSX.Element =>
           </svg>
         </button>
       </div>
+      
+      {/* Hold the mobile menu with the navlinks */}
       <div 
       className="w-screen p-6 flex flex-col text-center absolute top-[-220px] z-10 duration-300 bg-base-100 lg:hidden"
       id="nav-container"
