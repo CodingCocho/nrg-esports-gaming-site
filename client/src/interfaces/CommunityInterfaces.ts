@@ -11,5 +11,6 @@ export interface GalleryProps
 export interface PortraitProps
 {
   name: string,
-  portrait: string
+  portrait: string,
+  social: string
 }

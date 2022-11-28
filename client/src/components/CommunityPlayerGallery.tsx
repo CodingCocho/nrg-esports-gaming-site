@@ -18,6 +18,7 @@ export const CommunityPlayerGallery = (props: GalleryProps): JSX.Element =>
               <PlayerPortrait
               name={playerData.name}
               portrait={playerData.portrait}
+              social={playerData.social}
               />
             </>
           )

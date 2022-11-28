@@ -3,7 +3,7 @@ export const About = (): JSX.Element =>
   return (
     <>
       <div
-      className="w-full text-left pl-4 bg-black py-16"
+      className="w-full text-left pl-4 bg-black py-16 min-h-[80vh]"
       id="about-container"
       >
         <p

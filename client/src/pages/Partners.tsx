@@ -11,7 +11,7 @@ export const Partners = (): JSX.Element =>
   return (
     <>
       <section 
-      className="w-full py-12 bg-black md:pl-4" 
+      className="w-full py-12 bg-black md:pl-4 lg:pl-12 xl:pl-24" 
       id="sponsors"
       >
         <p
@@ -20,7 +20,7 @@ export const Partners = (): JSX.Element =>
           NRG ESPORTS
         </p>
         <div 
-        className="grid mt-16 grid-cols-1-1/2 place-items-center place-content-center gap-y-16"
+        className="grid mt-16 grid-cols-1-1/2 place-items-center place-content-center gap-y-16 lg:grid-cols-6-1/2 lg:justify-items-start"
         id="sponsor-grid"
         >
           <a 
@@ -29,6 +29,7 @@ export const Partners = (): JSX.Element =>
           >
             <img  
             alt="sponsor"
+            className="lg:w-[150px]"
             src={BuffSponsor} 
             />
           </a>
@@ -38,6 +39,7 @@ export const Partners = (): JSX.Element =>
           >
             <img  
             alt="sponsor"
+            className="lg:w-[150px]"
             src={RockstarSponsor} 
             />
           </a>
@@ -47,6 +49,7 @@ export const Partners = (): JSX.Element =>
           >
             <img  
             alt="sponsor"
+            className="lg:w-[150px]"
             src={ArmyNationGuardSponsor} 
             />
           </a>
@@ -56,6 +59,7 @@ export const Partners = (): JSX.Element =>
           >
             <img  
             alt="sponsor"
+            className="lg:w-[150px]"
             src={LevisSponsor} 
             />
           </a>
@@ -65,12 +69,13 @@ export const Partners = (): JSX.Element =>
           >
             <img  
             alt="sponsor"
+            className="lg:w-[150px]"
             src={HotPocketsSponsor} 
             />
           </a>
           <img  
           alt="sponsor"
-          className="hover:cursor-pointer"
+          className="lg:w-[150px]"
           src={TheragunSponsor} 
           />
         </div>
@@ -83,15 +88,17 @@ export const Partners = (): JSX.Element =>
             SAN FRANCISCO SHOCK
           </p>
           <div 
-          className="grid grid-cols-1-1/2 place-items-center place-content-center gap-y-16 mt-16" 
+          className="grid grid-cols-1-1/2 place-items-center place-content-center gap-y-16 mt-16 lg:grid-cols-2-1/2 lg:justify-items-start" 
           id="shock-sponsors"
           >
             <img 
             alt="shock-sponsor" 
+            className="w-[150px]"
             src={AmPmSponsor} 
             />
             <img 
             alt="shock-sponsor" 
+            className="w-[150px]"
             src={TheragunSponsor} 
             />
           </div>

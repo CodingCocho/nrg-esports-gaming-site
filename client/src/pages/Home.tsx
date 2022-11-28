@@ -43,64 +43,64 @@ export const Home = (): JSX.Element =>
           </video>
         </div>
         <div
-        className="w-full text-center bg-contain bg-no-repeat pt-8 pb-52 bg-bottom" 
+        className="w-full text-center bg-contain bg-no-repeat pt-8 pb-52 lg:pb-36 bg-bottom lg:bg-[right_5rem_top_10rem]" 
         id="shop-now"
         >
           <div 
-          className="block"
+          className="block lg:w-fit lg:pt-24 lg:w-fit lg:text-left"
           >
             <p
-            className="text-4xl px-8 font-black tracking-tighter"
+            className="text-4xl px-8 font-black tracking-tighter lg:pr-0 lg:pl-32 lg:text-5xl"
             >
               SHOP THE NRG X UFC GYM COLLAB
             </p>
             <button
-            className="btn block mx-auto mt-6"
+            className="btn block mx-auto lg:mx-none lg:ml-32 mt-6"
             >
               SHOP NOW
           </button>
           </div>
         </div>
         <div 
-        className="w-full grid grid-row-2 bg-black py-24 px-6 gap-y-16"
+        className="w-full grid grid-rows-2 bg-black py-24 px-6 gap-y-16 lg:grid-rows-1 lg:grid-cols-2 lg:place-content-center"
         id="home-stats"
         >
           <div
-          className="w-full text-left" 
+          className="w-full text-left lg:flex lg:flex-col lg:w-1/2 lg:mx-auto" 
           id="stat-container"
           >
             <p
-            className="text-3xl -tracking-[.15rem] font-black text-gray-500"
+            className="text-3xl -tracking-[.15rem] font-black text-gray-500 w-fit"
             >
               NRG AUDIENCE REACH
             </p>
             <p
-            className="text-7xl text-white font-black -tracking-[.15rem]"
+            className="text-7xl text-white font-black -tracking-[.15rem] w-fit"
             >
               71M+
             </p>
             <p
-            className=" text-2xl text-white font-black -tracking-[.1rem]"
+            className=" text-2xl text-white font-black -tracking-[.1rem] w-fit"
             >
               MONTHLY
             </p>
           </div>
           <div
-          className="w-full text-left" 
+          className="w-full text-left lg:flex lg:flex-col lg:w-1/2 lg:mx-auto" 
           id="stat-container"
           >
             <p
-            className="text-3xl -tracking-[.15rem] font-black text-gray-500"
+            className="text-3xl -tracking-[.15rem] font-black text-gray-500 w-fit"
             >
               TALENT AUDIENCE
             </p>
             <p
-            className="text-7xl text-white font-black -tracking-[.15rem]"
+            className="text-7xl text-white font-black -tracking-[.15rem] w-fit"
             >
               90M+
             </p>
             <p
-            className=" text-2xl text-white font-black -tracking-[.1rem]"
+            className=" text-2xl text-white font-black -tracking-[.1rem] w-fit"
             >
               FOLLOWERS
             </p>
@@ -117,7 +117,7 @@ export const Home = (): JSX.Element =>
           </p>
         </div>
         <section 
-        className="w-full max-w-none" 
+        className="w-full max-w-none lg:grid lg:grid-cols-2" 
         id="nrg-news"
         >
           <div 

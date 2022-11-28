@@ -1,42 +1,52 @@
 [
   {
     "name": "S0M",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b617f01de23b8ef101b4_2-s0m.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b617f01de23b8ef101b4_2-s0m.png",
+    "social": "https://twitter.com/s0mcs"
   },
   {
     "name": "VICTOR",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376aee76302a71775737c5a_2-Victor.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376aee76302a71775737c5a_2-Victor.png",
+    "social": "https://twitter.com/victorwong"
   },
   {
     "name": "FNS",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b18880957f8bc305cde0_2-FNS.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b18880957f8bc305cde0_2-FNS.png",
+    "social": "https://twitter.com/FNS"
   },
   {
     "name": "CHET",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b2ca811595163d8d6b6b_2-Chet.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b2ca811595163d8d6b6b_2-Chet.png",
+    "social": "https://twitter.com/chetsingh"
   },
   {
     "name": "CRASHIES",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b3526302a7111173c508_2-Crashies.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b3526302a7111173c508_2-Crashies.png",
+    "social": "https://twitter.com/crashies"
   },
   {
     "name": "ARDIIS",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b3f37c16149b082920bf_2-Ardiis.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6376b3f37c16149b082920bf_2-Ardiis.png",
+    "social": "https://twitter.com/ardiis"
   },
   {
     "name": "ETHOS",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154ee666966a42a40e7dc66_ethos-min.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154ee666966a42a40e7dc66_ethos-min.jpg",
+    "social": "https://twitter.com/ethoz"
   },
   {
     "name": "BENJYFISHY",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154acf91cfbe303eaa63d33_benjy-min.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154acf91cfbe303eaa63d33_benjy-min.jpg",
+    "social": "https://twitter.com/benjyfishy"
   },
   {
     "name": "WILLIUS",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62b23f5b6142fa22163293e8_willius.png"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/62b23f5b6142fa22163293e8_willius.png",
+    "social": "https://twitter.com/will1us"
   },
   {
     "name": "FLEXINJA",
-    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154ee6678827f5e431e033e_flexinja-min.jpg"
+    "portrait": "https://global-uploads.webflow.com/608c5ef703153e59ec742548/6154ee6678827f5e431e033e_flexinja-min.jpg",
+    "social": "https://twitter.com/flexinja"
   }
 ]

@@ -11,7 +11,9 @@ module.exports = {
       },
       gridTemplateColumns:
       {
-        '1-1/2': 'repeat(1, minmax(0, .5fr))'
+        '1-1/2': 'repeat(1, minmax(0, .5fr))',
+        '2-1/2': 'repeat(2, minmax(0, .5fr))',
+        '6-1/2': 'repeat(6, minmax(0, .5fr))'
       }
     },
   },

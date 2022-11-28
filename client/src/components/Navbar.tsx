@@ -1,10 +1,13 @@
 import {useState} from 'react';
-import {NavLink} from 'react-router-dom';
+import {NavLink, useNavigate} from 'react-router-dom';
 import NRGLogo from '../assets/nrg-logo.png';
+import NRGLogo2 from '../assets/nrg-logo-black-2.png';
 
 export const Navbar = (): JSX.Element =>
 {
   const [open, setOpen] = useState<boolean>(false);
+
+  const navigate = useNavigate();
 
   const openNavbar = () =>
   {
@@ -29,15 +32,57 @@ export const Navbar = (): JSX.Element =>
   return (
     <>
       <div 
-      className="navbar bg-base-100 px-8 pt-10 pb-6 justify-between z-20 relative"
+      className="navbar bg-base-100 px-8 pt-10 pb-6 justify-between z-20 relative lg:px-24"
       >
         <img 
         alt="black-logo"
-        className="w-[125px] h-[30px]" 
+        className="w-[125px] h-[30px] block lg:hidden cursor-pointer" 
+        onClick={() => navigate('/')}
         src={NRGLogo}
         />
+        <img 
+        alt="black-logo"
+        className="w-[125px] h-[50px] hidden lg:block cursor-pointer"
+        onClick={() => navigate('/')} 
+        src={NRGLogo2}
+        />
+        <div
+        className="hidden lg:flex lg:items-center"
+        id="links-desktop"
+        >
+          <NavLink     
+          className={({isActive}): string => "text-lg block font-bold mr-4 " + (isActive ? "text-neutral" : "text-gray-400")}
+          to="/"
+          >
+            Home
+          </NavLink>
+          <NavLink
+          className={({isActive}): string => "text-lg block font-bold mr-4 " + (isActive ? "text-neutral" : "text-gray-400")}
+          to="/about"
+          >
+            About
+          </NavLink>
+          <NavLink
+          className={({isActive}): string => "text-lg block font-bold mr-4 " + (isActive ? "text-neutral" : "text-gray-400")}
+          to="/communities"
+          >
+            Communities
+          </NavLink>
+          <NavLink
+          className={({isActive}): string => "text-lg block font-bold mr-4 " + (isActive ? "text-neutral" : "text-gray-400")}
+          to="/partners"
+          >
+            Partners
+          </NavLink>
+          <NavLink
+          className={({isActive}): string => "text-lg block font-bold " + (isActive ? "text-neutral" : "text-gray-400")}
+          to="/news"
+          >
+            News
+          </NavLink>
+        </div>
         <button 
-        className="btn btn-square btn-ghost"
+        className="btn btn-square btn-ghost lg:hidden"
         onClick={openNavbar}
         >
           <svg
@@ -57,44 +102,44 @@ export const Navbar = (): JSX.Element =>
         </button>
       </div>
       <div 
-      className="w-screen p-6 flex flex-col text-center absolute top-[-220px] z-10 duration-300 bg-base-100"
+      className="w-screen p-6 flex flex-col text-center absolute top-[-220px] z-10 duration-300 bg-base-100 lg:hidden"
       id="nav-container"
       >
         <NavLink     
-          className={({isActive}): string => "text-lg block font-bold " + (isActive ? "text-neutral" : "text-gray-400")}
-          onClick={() => openNavbar()}
-          to="/"
-          >
-            Home
-          </NavLink>
-          <NavLink
-          className={({isActive}): string => "text-lg block font-bold mt-2 " + (isActive ? "text-neutral" : "text-gray-400")}
-          onClick={() => openNavbar()}
-          to="/about"
-          >
-            About
-          </NavLink>
-          <NavLink
-          className={({isActive}): string => "text-lg block font-bold mt-2 " + (isActive ? "text-neutral" : "text-gray-400")}
-          onClick={() => openNavbar()}
-          to="/communities"
-          >
-            Communities
-          </NavLink>
-          <NavLink
-          className={({isActive}): string => "text-lg block font-bold mt-2 " + (isActive ? "text-neutral" : "text-gray-400")}
-          onClick={() => openNavbar()}
-          to="/partners"
-          >
-            Partners
-          </NavLink>
-          <NavLink
-          className={({isActive}): string => "text-lg block font-bold mt-2 " + (isActive ? "text-neutral" : "text-gray-400")}
-          onClick={() => openNavbar()}
-          to="/news"
-          >
-            News
-          </NavLink>
+        className={({isActive}): string => "text-lg block font-bold " + (isActive ? "text-neutral" : "text-gray-400")}
+        onClick={() => openNavbar()}
+        to="/"
+        >
+          Home
+        </NavLink>
+        <NavLink
+        className={({isActive}): string => "text-lg block font-bold mt-2 " + (isActive ? "text-neutral" : "text-gray-400")}
+        onClick={() => openNavbar()}
+        to="/about"
+        >
+          About
+        </NavLink>
+        <NavLink
+        className={({isActive}): string => "text-lg block font-bold mt-2 " + (isActive ? "text-neutral" : "text-gray-400")}
+        onClick={() => openNavbar()}
+        to="/communities"
+        >
+          Communities
+        </NavLink>
+        <NavLink
+        className={({isActive}): string => "text-lg block font-bold mt-2 " + (isActive ? "text-neutral" : "text-gray-400")}
+        onClick={() => openNavbar()}
+        to="/partners"
+        >
+          Partners
+        </NavLink>
+        <NavLink
+        className={({isActive}): string => "text-lg block font-bold mt-2 " + (isActive ? "text-neutral" : "text-gray-400")}
+        onClick={() => openNavbar()}
+        to="/news"
+        >
+          News
+        </NavLink>
       </div>
     </>
   )
